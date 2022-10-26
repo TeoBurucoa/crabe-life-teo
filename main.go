@@ -49,7 +49,7 @@ func main() {
 
 	// Get TTL value for cache configuration
 	ttl = flag.Int("cache-ttl", 0, "time in second to cache HTTP response")
-	crabURL = flag.String("crab-url", "https://i.gifer.com/3QZn.gif", "url to crab gif")
+	crabURL = flag.String("crab-url", "https://i.gifer.com/BgQ9.gif", "url to crab gif")
 	flag.Parse()
 
 	// Get Hostname of the server running this app
